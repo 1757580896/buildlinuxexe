@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python (最新版)
         uses: actions/setup-python@v2
         with:
-          python-version: 'latest'  # 使用最新版 Python
+          python-version: '3.12.3'  # 使用最新版 Python
 
       - name: Install dependencies
         run: |
