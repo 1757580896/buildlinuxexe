@@ -1,6 +1,7 @@
 name: Build Python Executable
 
 on:
+  workflow_dispatch:  # 允许手动触发
   push:
     branches:
       - main  # 分支名称根据实际情况调整
